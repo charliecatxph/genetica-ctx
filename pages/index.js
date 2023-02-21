@@ -13,6 +13,9 @@ export default function Home() {
 
   const handleGenInpChange = (evt) => {
     setInputType(evt.target.value);
+    setData1("");
+    setData2("");
+    setData3("");
   };
 
   const handleGenCodeInput = (evt) => {
