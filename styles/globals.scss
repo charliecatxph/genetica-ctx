@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d2a2a;
+    color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    padding: 0 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 60px;
+    .container {
+        .wrapper {
+            .ctx-logo {
+                svg {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            h1 {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+.genetic-input-type {
+    margin-top: 15px;
+    .container {
+        .wrapper {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #8d7d7d;
+            h6 {
+                font-weight: 300;
+                padding-bottom: 5px;
+            }
+            .tg-btgrp {
+                height: 35px;
+                button {
+                    color: white;
+                    border: 1px solid #8d7d7d;
+                    text-transform: unset;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: normal;
+                    font-size: 12px;
+                }
+                .Mui-selected {
+                    background-color: #8d7d7d;
+                }
+            }
+        }
+    }
+}
+
+.genetic-code-input {
+    margin-top: 15px;
+    .container {
+        .wrapper {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #8d7d7d;
+            display: flex;
+            flex-direction: column;
+            label {
+                font-size: 0.67em;
+                font-weight: 300;
+                padding-bottom: 5px;
+            }
+            .inputs {
+                display: flex;
+                input {
+                    width: 70%;
+                    background: none;
+                    outline: none;
+                    border: 1px solid #8d7d7d;
+                    border-radius: 5px 0px 0px 5px;
+                    height: 35px;
+                    padding: 0 5px;
+                    color: white;
+                    font-family: "Montserrat", sans-serif;
+                    transition: 0.2s border linear;
+                }
+                .valid {
+                    border: 1px solid#2ecc71;
+                }
+                .valid-2 {
+                    background-color: #2ecc71;
+                }
+                .invalid {
+                    border: 1px solid #e74c3c;
+                }
+                .invalid-2 {
+                    background-color: #e74c3c;
+                }
+                div {
+                    background-color: #8d7d7d;
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0 5px 5px 0;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.genetic-code-output {
+    margin-top: 15px;
+    .container {
+        .wrapper {
+            padding-bottom: 15px;
+            border-bottom: 1px solid #8d7d7d;
+            display: flex;
+            flex-direction: column;
+            .output-box {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 15px;
+                label {
+                    font-size: 0.67em;
+                    font-weight: 300;
+                    padding-bottom: 5px;
+                }
+                input {
+                    background: none;
+                    outline: none;
+                    border: 1px solid #8d7d7d;
+                    border-radius: 5px;
+                    height: 35px;
+                    padding: 0 5px;
+                    color: white;
+                    font-family: "Montserrat", sans-serif;
+                }
+            }
+        }
+    }
+}
+
+.license {
+    margin-top: 5px;
+}
